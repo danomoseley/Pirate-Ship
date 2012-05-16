@@ -9,5 +9,6 @@ var links = [
 
 var config = {
 	user:'myUsername',
-	password:'myAwesomePassword'
+	password:'myAwesomePassword',
+	trakt:{username:'myTraktUsername'}
 };
