@@ -39,8 +39,8 @@ $(document).ready(function() {
 	for (var i in links) {
 		var link = links[i];
 		link.url = 'http://' + config.user + ':' + config.password + '@' + link.url;
-		$('#iconDock .icons').append($('<a class="simple appLink" target="_blank" href="'+link.url+'"><img height="150px" src="'+link.img+'"/></a>'));
-		$('#iconDock .icons').append($('<a class="fancy appLink" rel="gallery" target="_blank" href="'+link.url+'"><img height="150px" src="'+link.img+'"/></a>'));
+		$('#iconDock .icons').append($('<a class="simple appLink" target="_blank" href="'+link.url+'"><img height="'+config.iconDockHeight+'" src="'+link.img+'"/></a>'));
+		$('#iconDock .icons').append($('<a class="fancy appLink" rel="gallery" target="_blank" href="'+link.url+'"><img height="'+config.iconDockHeight+'" src="'+link.img+'"/></a>'));
 	}
 	
 	if(localStorage["fancy"] == "true"){

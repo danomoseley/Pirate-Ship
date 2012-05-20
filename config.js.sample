@@ -12,6 +12,7 @@ var links = [
 ];
 
 var config = {
+	iconDockHeight:'150px',
 	user:'myUsername',
 	password:'myAwesomePassword',
 	trakt:{username:'myTraktUsername'}
