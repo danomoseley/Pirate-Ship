@@ -3,10 +3,12 @@ body{
 	opacity:0.9;
 }
 
+#main{
+	text-align: center;
+}
+
 #iconDock{
-	margin-left:auto;
-	margin-right:auto;
-	width:827px;
+	display: inline-block;
 	background-color:#f2f2f2;
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
