@@ -5,6 +5,10 @@ s.parentNode.insertBefore(g,s)}(document,"script"));
 
 var links = [
 	{url:'my.site.com:8080',img:'img/sickbeard.png'},
+	{url:'my.site.com:8081',img:'img/couchpotato.pngg'},
+	{url:'my.site.com:8082',img:'img/xbmc.png'},
+	{url:'my.site.com:8083',img:'img/sab2_512.png'},
+	{url:'my.site.com:8084',img:'img/transmission.png'}
 ];
 
 var config = {
