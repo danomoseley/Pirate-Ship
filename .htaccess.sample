@@ -1,0 +1,5 @@
+AuthName "GTFO" 
+AuthType Basic 
+AuthUserFile /path/to/my/.htpasswd 
+AuthGroupFile /dev/null 
+require valid-user
