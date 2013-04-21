@@ -1,4 +1,4 @@
 Dashboard for your pirating needs
 
-Alter config.js.sample with wanted config and rename to config.js
+Copy config.js.sample to config.js and edit with desired settings
 Alter .htaccess.sample with path to valid .htpasswd and rename to .htaccess
