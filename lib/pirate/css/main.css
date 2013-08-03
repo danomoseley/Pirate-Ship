@@ -24,10 +24,13 @@ body{
 
 .icons a{
 	font-size:125px;
+	display:block;
+	float:left;
 }
 
 .icons img{
 	height:1em;
+	display:block;
 }
 
 body.allFancy .simple{
