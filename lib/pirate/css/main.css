@@ -1,6 +1,7 @@
 body{
 	background-image:url('../img/pirate.png');
 	opacity:0.9;
+	margin: 0px 10px;
 }
 
 #main{
