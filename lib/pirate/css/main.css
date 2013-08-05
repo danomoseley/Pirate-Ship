@@ -24,8 +24,7 @@ body{
 
 .icons a{
 	font-size:125px;
-	display:block;
-	float:left;
+	display:inline-block;
 }
 
 .icons img{
