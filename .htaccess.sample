@@ -10,4 +10,4 @@ Require valid-user
     Order Allow,Deny
     Allow from all
     Satisfy Any
-</Files>
+</FilesMatch>
