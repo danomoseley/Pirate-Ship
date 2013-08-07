@@ -1,5 +1,13 @@
-AuthName "GTFO" 
-AuthType Basic 
-AuthUserFile /path/to/my/.htpasswd 
-AuthGroupFile /dev/null 
-require valid-user
+Deny from all
+AuthUserFile /path/to/my/.htpasswd
+ErrorDocument 401 /error.html
+ErrorDocument 404 /error.html
+AuthType Basic
+AuthName "GTFO"
+Satisfy Any
+Require valid-user
+<Files /error.html>
+    Order Allow,Deny
+    Allow from all
+    Satisfy Any
+</Files>
